@@ -1,11 +1,15 @@
+/* Importando as fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&family=Roboto:wght@400;700&display=swap');
+
 body {
-    font-family: sans-serif; /* Uma fonte clean e moderna */
+    font-family: 'Roboto', sans-serif; /* Fonte Roboto para o corpo do texto */
     margin: 0;
     background-color: #141414; /* Fundo escuro, como muitos sites modernos */
     color: #f0f0f0; /* Texto claro para contraste */
 }
 
 header {
+    font-family: 'Rajdhani', sans-serif; /* Fonte Rajdhani para o cabeçalho */
     background-color: #1db954; /* Um tom de verde inspirado no Loki */
     color: #000; /* Texto preto para destacar no verde */
     padding: 20px;
@@ -16,8 +20,13 @@ main {
     padding: 20px;
 }
 
+main h2 {
+    font-family: 'Rajdhani', sans-serif; /* Fonte Rajdhani para os subtítulos */
+    color: #1db954; /* Destaque em verde para o título da seção */
+}
+
 .banner {
-    background-image: url('https://drive.google.com/file/d/1Te9je8QgoKJkQJEeTlBbfJnYRKo3arCe/view?usp=sharing'); /* Coloque aqui o link ou caminho para uma imagem do Loki ou do multiverso */
+    background-image: url('images/banner_loki.jpg'); /* Coloque aqui o link ou caminho para uma imagem do Loki ou do multiverso */
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -32,6 +41,7 @@ main {
 }
 
 .banner h2 {
+    font-family: 'Rajdhani', sans-serif; /* Fonte Rajdhani para o título do banner */
     font-size: 2.5em;
     margin-bottom: 10px;
 }
@@ -50,6 +60,7 @@ main {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    font-family: 'Rajdhani', sans-serif; /* Fonte Rajdhani para o botão */
 }
 
 .abstract {
